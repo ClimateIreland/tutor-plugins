@@ -1,0 +1,6 @@
+name: disable-discussion
+version: 0.1.0
+patches:
+ lms-env-features: |
+  "ENABLE_DISCUSSION_HOME_PANEL": false, 
+  "ENABLE_DISCUSSION_SERVICE": false

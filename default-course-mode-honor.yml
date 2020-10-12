@@ -1,0 +1,15 @@
+name: default-course-mode-honor
+version: 0.1.0
+patches: 
+ lms-env: |
+  "COURSE_MODE_DEFAULTS": {
+    "name": "Honor",
+    "slug": "honor",
+    "bulk_sku": null,
+    "currency": "usd",
+    "description": null,
+    "expiration_datetime": null,
+    "min_price": 0,
+    "sku": null,
+    "suggested_prices": ""
+  }

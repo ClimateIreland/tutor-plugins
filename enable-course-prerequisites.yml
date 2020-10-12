@@ -1,0 +1,9 @@
+name: enable-course-prerequisites
+version: 0.1.0
+patches:
+ lms-env-features: |
+  "MILESTONES_APP": true,
+  "ENABLE_PREREQUISITE_COURSES": true  
+ cms-env-features: |
+  "MILESTONES_APP": true,  
+  "ENABLE_PREREQUISITE_COURSES": true

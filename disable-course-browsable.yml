@@ -1,0 +1,5 @@
+name: disable-course-browsable
+version: 0.1.0
+patches:
+ lms-env-features: |
+  "COURSES_ARE_BROWSABLE": false
