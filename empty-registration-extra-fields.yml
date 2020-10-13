@@ -1,0 +1,6 @@
+name: empty-registration-extra-fields
+version: 0.1.0
+patches:
+ lms-env: |
+  "REGISTRATION_EXTRA_FIELDS": {
+  }
