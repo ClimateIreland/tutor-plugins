@@ -1,0 +1,21 @@
+name: enable-account-retirement
+version: 0.1.0
+patches:
+ lms-env: |
+  "RETIREMENT_SERVICE_WORKER_USERNAME" : "retirement_service_worker",
+  "RETIREMENT_STATES": [
+    "PENDING",
+    "LOCKING_ACCOUNT",
+    "LOCKING_COMPLETE",
+    "RETIRING_ENROLLMENTS",
+    "ENROLLMENTS_COMPLETE",
+    "RETIRING_LMS",
+    "LMS_COMPLETE",
+    "ERRORED",
+    "ABORTED",
+    "COMPLETE"]
+ lms-env-features: |
+  "ENABLE_ACCOUNT_DELETION": true
+
+    
+
