@@ -1,3 +1,23 @@
+Collection of plugin for `Tutor <https://docs.tutor.overhang.io>`_
+===============================================================
+This collection of plugins for `Tutor <https://docs.tutor.overhang.io>` customise settings to facilitate particular functions.
+
+
+Plugins List
+------------
+
+default-course-mode-honor.yml  
+enable-account-retirement.yml
+disable-course-browsable.yml   
+enable-course-prerequisites.yml
+disable-course-discovery.yml   
+googleanalytics.yml
+disable-discussion.yml
+disable-wiki.yml
+
+Installation
+------------
+
 Once the plugin has been developed and save in plugins root folder ($ tutor plugins printroot), it should be listed in the plugins list with: 
 
 $ tutor plugins list 
