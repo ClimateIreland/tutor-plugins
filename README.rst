@@ -7,13 +7,13 @@ Plugins List
 ------------
 
 default-course-mode-honor.yml  
-enable-account-retirement.yml
+enable-account-retirement.yml  
 disable-course-browsable.yml   
-enable-course-prerequisites.yml
+enable-course-prerequisites.yml  
 disable-course-discovery.yml   
-googleanalytics.yml
-disable-discussion.yml
-disable-wiki.yml
+googleanalytics.yml  
+disable-discussion.yml  
+disable-wiki.yml  
 
 Installation
 ------------
