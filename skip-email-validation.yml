@@ -1,0 +1,5 @@
+name: skipemailvalidation
+version: 0.1.0
+patches:
+  common-env-features: |
+    "SKIP_EMAIL_VALIDATION": true
