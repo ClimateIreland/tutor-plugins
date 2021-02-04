@@ -3,6 +3,6 @@ version: 0.1.0
 patches:
  lms-env: |
   "REGISTRATION_EXTRA_FIELDS": {
-    "honor_code": "required",
-    "terms_of_service": "required",
+    "honor_code":"hidden",
+    "terms_of_service": "required"
   }
